@@ -23,3 +23,11 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: ruby_lesson
+  username: root
+  host: localhost
+
